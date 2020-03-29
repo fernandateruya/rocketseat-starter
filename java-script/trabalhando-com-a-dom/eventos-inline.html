@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Curso Javascript</title>
+    </head>
+    <body>
+        <!-- EVENTOS INLINE -->    
+        <div id="app">
+            <button onclick="mostraAlerta1()"> Clique aqui </button>
+            <h3 onmouseover="mostraAlerta2()"> Passe o mouse aqui aqui </h3>
+            <p>Aniversario:</p>
+            <input onkeypress="mostraAlerta3()"></input>
+        </div>
+        <script>
+            function mostraAlerta1() {
+                alert('Parabéns')
+            }
+            function mostraAlerta2() {
+                alert('Muito bem')
+            }
+            function mostraAlerta3() {
+                alert('Formato dd/mm/aaaa')
+            }            
+        </script>
+    </body>
+</html>

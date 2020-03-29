@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+    <head>
+        <meta charset='UFT-8'>
+        <title>Curso Javascript</title>
+    </head>
+    <body>
+        <!-- OPERADORES LOGICOS -->
+        <script>
+            var sexo = 'M', idade = 23;
+            if (sexo == 'M') {
+                console.log('masculino') 
+            } //masculino
+
+            if (sexo == 'M' && idade != 23) {
+                console.log('ok')       
+            } //ok
+ 
+            idade = 10;
+            if (sexo == 'M' && idade == 23) {
+                console.log('ok')       
+                } else {
+                    console.log('nok')
+                } //nok
+
+            if (sexo == 'M' && idade == 23) {
+                console.log('ok')
+                } else {
+                    console.log('nok')
+                } //nok
+
+            idade = 10;
+            if (sexo == 'M' || idade == 23) {
+                console.log('ok')
+                } else {
+                    console.log('nok')
+                } //ok
+ 
+            sexo = 'F';
+            if (sexo == 'M' || idade == 23) {
+                console.log('ok')
+                } else {
+                    console.log('nok')
+                } //nok
+
+            
+        </script>
+    </body>
+</html>
